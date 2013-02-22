@@ -2,7 +2,7 @@ class Cms::Site < ActiveRecord::Base
   
   ComfortableMexicanSofa.establish_connection(self)
   
-  self.table_name = 'cms_sites'
+  self.table_name = 'cms.cms_sites'
   
   attr_accessible :identifier,
                   :label,

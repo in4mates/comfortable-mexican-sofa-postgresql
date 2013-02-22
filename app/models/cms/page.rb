@@ -15,7 +15,7 @@ class Cms::Page < ActiveRecord::Base
   
   ComfortableMexicanSofa.establish_connection(self)
     
-  self.table_name = 'cms_pages'
+  self.table_name = 'cms.cms_pages'
   
   attr_accessible :layout, :layout_id,
                   :label,

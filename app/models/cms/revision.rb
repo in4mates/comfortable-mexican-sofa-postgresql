@@ -2,7 +2,7 @@ class Cms::Revision < ActiveRecord::Base
   
   ComfortableMexicanSofa.establish_connection(self)
   
-  self.table_name = 'cms_revisions'
+  self.table_name = 'cms.cms_revisions'
   
   serialize :data
   

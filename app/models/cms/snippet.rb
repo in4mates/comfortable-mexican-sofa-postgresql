@@ -2,7 +2,7 @@ class Cms::Snippet < ActiveRecord::Base
   
   ComfortableMexicanSofa.establish_connection(self)
   
-  self.table_name = 'cms_snippets'
+  self.table_name = 'cms.cms_snippets'
   
   cms_is_categorized
   cms_is_mirrored
