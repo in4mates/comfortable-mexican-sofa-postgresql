@@ -106,7 +106,7 @@ protected
       @cms_site   = @page.site
       @cms_layout = @page.layout
       @cms_page   = @page
-      render :inline => @page.content(true), :layout => layout
+      render :inline => @page.content(true), :type => :slim,  :layout => layout
     end
   end
 end
